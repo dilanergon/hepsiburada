@@ -21,7 +21,6 @@ public class ProductDetailPage extends ProductDetail_Constants {
         checkMessage = driver.findElement(CHECKADDEDPRODUCT).getText();
         Assert.assertEquals("2 ürün",checkMessage);
         this.takeSnapShot(driver, "C:\\Users\\Dilan\\IdeaProjects\\web\\src\\test\\resources\\test.png") ;
-//
         return this;
     }
 
